@@ -3,6 +3,7 @@ import numpy as np
 import pickle
 
 st.set_page_config(page_title="Placement Predictor", page_icon="💼", layout="centered")
+
 model = pickle.load(open('Machine Learning Projects/01_Placement_Prediction/artifacts/model.pkl', 'rb'))
 scaler = pickle.load(open('Machine Learning Projects/01_Placement_Prediction/artifacts/scaler.pkl', 'rb'))
 
